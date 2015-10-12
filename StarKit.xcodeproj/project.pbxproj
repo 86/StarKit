@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28097D4B1BC821D100D13CEB /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28097D4A1BC821D100D13CEB /* StarView.swift */; };
+		28831A8B1BC6D2B400C5BB35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28831A8A1BC6D2B400C5BB35 /* AppDelegate.swift */; };
+		28831A8D1BC6D2B400C5BB35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28831A8C1BC6D2B400C5BB35 /* ViewController.swift */; };
+		28831A901BC6D2B400C5BB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28831A8E1BC6D2B400C5BB35 /* Main.storyboard */; };
+		28831A921BC6D2B400C5BB35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28831A911BC6D2B400C5BB35 /* Images.xcassets */; };
+		28831A951BC6D2B400C5BB35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28831A931BC6D2B400C5BB35 /* LaunchScreen.xib */; };
+		28831AA11BC6D2B400C5BB35 /* StarKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28831AA01BC6D2B400C5BB35 /* StarKitTests.swift */; };
+		28831AAB1BC6D31700C5BB35 /* StarKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28831AAA1BC6D31700C5BB35 /* StarKit.swift */; };
+		28C28C801BC980E50012BA6F /* UIViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C28C7F1BC980E50012BA6F /* UIViewUtil.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28831A9B1BC6D2B400C5BB35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28831A7D1BC6D2B300C5BB35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28831A841BC6D2B400C5BB35;
+			remoteInfo = StarKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28097D4A1BC821D100D13CEB /* StarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		28831A851BC6D2B400C5BB35 /* StarKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28831A891BC6D2B400C5BB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28831A8A1BC6D2B400C5BB35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28831A8C1BC6D2B400C5BB35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28831A8F1BC6D2B400C5BB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28831A911BC6D2B400C5BB35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28831A941BC6D2B400C5BB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		28831A9A1BC6D2B400C5BB35 /* StarKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28831A9F1BC6D2B400C5BB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28831AA01BC6D2B400C5BB35 /* StarKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarKitTests.swift; sourceTree = "<group>"; };
+		28831AAA1BC6D31700C5BB35 /* StarKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarKit.swift; sourceTree = "<group>"; };
+		28C28C7F1BC980E50012BA6F /* UIViewUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewUtil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28831A821BC6D2B400C5BB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28831A971BC6D2B400C5BB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28831A7C1BC6D2B300C5BB35 = {
+			isa = PBXGroup;
+			children = (
+				28831A871BC6D2B400C5BB35 /* StarKit */,
+				28831A9D1BC6D2B400C5BB35 /* StarKitTests */,
+				28831A861BC6D2B400C5BB35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28831A861BC6D2B400C5BB35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28831A851BC6D2B400C5BB35 /* StarKit.app */,
+				28831A9A1BC6D2B400C5BB35 /* StarKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28831A871BC6D2B400C5BB35 /* StarKit */ = {
+			isa = PBXGroup;
+			children = (
+				28831A8A1BC6D2B400C5BB35 /* AppDelegate.swift */,
+				28831A8C1BC6D2B400C5BB35 /* ViewController.swift */,
+				28C28C7F1BC980E50012BA6F /* UIViewUtil.swift */,
+				28097D4A1BC821D100D13CEB /* StarView.swift */,
+				28831AAA1BC6D31700C5BB35 /* StarKit.swift */,
+				28831A8E1BC6D2B400C5BB35 /* Main.storyboard */,
+				28831A911BC6D2B400C5BB35 /* Images.xcassets */,
+				28831A931BC6D2B400C5BB35 /* LaunchScreen.xib */,
+				28831A881BC6D2B400C5BB35 /* Supporting Files */,
+			);
+			path = StarKit;
+			sourceTree = "<group>";
+		};
+		28831A881BC6D2B400C5BB35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28831A891BC6D2B400C5BB35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28831A9D1BC6D2B400C5BB35 /* StarKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				28831AA01BC6D2B400C5BB35 /* StarKitTests.swift */,
+				28831A9E1BC6D2B400C5BB35 /* Supporting Files */,
+			);
+			path = StarKitTests;
+			sourceTree = "<group>";
+		};
+		28831A9E1BC6D2B400C5BB35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28831A9F1BC6D2B400C5BB35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28831A841BC6D2B400C5BB35 /* StarKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28831AA41BC6D2B400C5BB35 /* Build configuration list for PBXNativeTarget "StarKit" */;
+			buildPhases = (
+				28831A811BC6D2B400C5BB35 /* Sources */,
+				28831A821BC6D2B400C5BB35 /* Frameworks */,
+				28831A831BC6D2B400C5BB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarKit;
+			productName = StarKit;
+			productReference = 28831A851BC6D2B400C5BB35 /* StarKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28831A991BC6D2B400C5BB35 /* StarKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28831AA71BC6D2B400C5BB35 /* Build configuration list for PBXNativeTarget "StarKitTests" */;
+			buildPhases = (
+				28831A961BC6D2B400C5BB35 /* Sources */,
+				28831A971BC6D2B400C5BB35 /* Frameworks */,
+				28831A981BC6D2B400C5BB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28831A9C1BC6D2B400C5BB35 /* PBXTargetDependency */,
+			);
+			name = StarKitTests;
+			productName = StarKitTests;
+			productReference = 28831A9A1BC6D2B400C5BB35 /* StarKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28831A7D1BC6D2B300C5BB35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = triaedz;
+				TargetAttributes = {
+					28831A841BC6D2B400C5BB35 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					28831A991BC6D2B400C5BB35 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 28831A841BC6D2B400C5BB35;
+					};
+				};
+			};
+			buildConfigurationList = 28831A801BC6D2B300C5BB35 /* Build configuration list for PBXProject "StarKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28831A7C1BC6D2B300C5BB35;
+			productRefGroup = 28831A861BC6D2B400C5BB35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28831A841BC6D2B400C5BB35 /* StarKit */,
+				28831A991BC6D2B400C5BB35 /* StarKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28831A831BC6D2B400C5BB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28831A901BC6D2B400C5BB35 /* Main.storyboard in Resources */,
+				28831A951BC6D2B400C5BB35 /* LaunchScreen.xib in Resources */,
+				28831A921BC6D2B400C5BB35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28831A981BC6D2B400C5BB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28831A811BC6D2B400C5BB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28831AAB1BC6D31700C5BB35 /* StarKit.swift in Sources */,
+				28C28C801BC980E50012BA6F /* UIViewUtil.swift in Sources */,
+				28097D4B1BC821D100D13CEB /* StarView.swift in Sources */,
+				28831A8D1BC6D2B400C5BB35 /* ViewController.swift in Sources */,
+				28831A8B1BC6D2B400C5BB35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28831A961BC6D2B400C5BB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28831AA11BC6D2B400C5BB35 /* StarKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28831A9C1BC6D2B400C5BB35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28831A841BC6D2B400C5BB35 /* StarKit */;
+			targetProxy = 28831A9B1BC6D2B400C5BB35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28831A8E1BC6D2B400C5BB35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28831A8F1BC6D2B400C5BB35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28831A931BC6D2B400C5BB35 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28831A941BC6D2B400C5BB35 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28831AA21BC6D2B400C5BB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28831AA31BC6D2B400C5BB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28831AA51BC6D2B400C5BB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triaedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28831AA61BC6D2B400C5BB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triaedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28831AA81BC6D2B400C5BB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triaedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarKit.app/StarKit";
+			};
+			name = Debug;
+		};
+		28831AA91BC6D2B400C5BB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.triaedz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarKit.app/StarKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28831A801BC6D2B300C5BB35 /* Build configuration list for PBXProject "StarKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28831AA21BC6D2B400C5BB35 /* Debug */,
+				28831AA31BC6D2B400C5BB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28831AA41BC6D2B400C5BB35 /* Build configuration list for PBXNativeTarget "StarKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28831AA51BC6D2B400C5BB35 /* Debug */,
+				28831AA61BC6D2B400C5BB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28831AA71BC6D2B400C5BB35 /* Build configuration list for PBXNativeTarget "StarKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28831AA81BC6D2B400C5BB35 /* Debug */,
+				28831AA91BC6D2B400C5BB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28831A7D1BC6D2B300C5BB35 /* Project object */;
+}
